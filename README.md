@@ -1,3 +1,11 @@
+Common Form is built out of JavaScript, stored and versioned in several npm packages.
+
+The [core packages](#core) define and enforce the schema for Common Forms, handle serializing and hashing those data for [content addressing](https://en.wikipedia.org/wiki/Content-addressable_storage), and provide a few oft-used utility modules.
+
+[Annotators](#annotators) analyze Common Forms and return annotations to their content identifying structural and stylistic issues.
+
+[Renderers](#renders) transform Common Form data into other formats, like Microsoft Word, HTML, and CommonMark.
+
 # Core
 
 ## Schema
@@ -45,7 +53,7 @@ A number of [specific annotators](#specific-annotators) in turn depend on data p
 - [commonform-regexp-annotator](https://www.npmjs.com/package/commonform-regexp-annotator)
 - [commonform-phrase-annotator](https://www.npmjs.com/package/commonform-phrase-annotator)
 
-# Rendering
+# Renderers
 
 ## Specific Formats
 
@@ -60,7 +68,7 @@ A number of [specific annotators](#specific-annotators) in turn depend on data p
 - [commonform-number](https://www.npmjs.com/package/commonform-number)
 - [commonform-resolve](https://www.npmjs.com/package/commonform-resolve)
 
-# Numbering
+## Numberings
 
 - [abstract-numbering](https://www.npmjs.com/package/abstract-numbering)
 - [agreement-schedule-exhibits-numbering](https://www.npmjs.com/package/agreement-schedule-exhibits-numbering)
