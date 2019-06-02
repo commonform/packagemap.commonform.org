@@ -10,11 +10,11 @@ The [core packages](#core) define and enforce the schema for Common Forms, handl
 
 ## Schemas
 
-The most important package is [commonform-validate](https://www.npmjs.com/package/commonform-validate), which defines the schema rules for bits of legal text expressed as Common Forms.
+- The most important package is [commonform-validate](https://www.npmjs.com/package/commonform-validate), which defines the schema rules for bits of legal text expressed as Common Forms.
 
-[signature-page-schema](https://www.npmjs.com/package/signature-page-schema) defines a schema for data about signature pages.
+- [signature-page-schema](https://www.npmjs.com/package/signature-page-schema) defines a schema for data about signature pages.
 
-[commonform-validate-directions](https://www.npmjs.com/package/commonform-validate-directions) defines a schema for directions for filling in Common Forms' blanks.
+- [commonform-validate-directions](https://www.npmjs.com/package/commonform-validate-directions) defines a schema for directions for filling in Common Forms' blanks.
 
 ## Content Addressing
 
