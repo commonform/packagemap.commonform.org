@@ -1,19 +1,29 @@
 # Core
 
-- [commonform-analyze](https://www.npmjs.com/package/commonform-analyze)
-- [commonform-predicate](https://www.npmjs.com/package/commonform-predicate)
+## Schema
+
+The most important package is [commonform-validate](https://www.npmjs.com/package/commonform-validate), which defines the schema rules for bits of legal text expressed as Common Forms.
+
+## Content Addressing
+
 - [commonform-serialize](https://www.npmjs.com/package/commonform-serialize)
 - [commonform-hash](https://www.npmjs.com/package/commonform-hash)
-- [commonform-validate](https://www.npmjs.com/package/commonform-validate)
 
-# Annotation
+## Utilities
 
-## Top-Level Packages
+- [commonform-analyze](https://www.npmjs.com/package/commonform-analyze)
+- [commonform-predicate](https://www.npmjs.com/package/commonform-predicate)
 
-- [commonform-critique](https://www.npmjs.com/package/commonform-critique)
-- [commonform-lint](https://www.npmjs.com/package/commonform-lint)
+# Annotators
 
-## Annotators
+Annotators take Common Forms and return arrays of notes, called annotations, about their content.
+
+## General Annotators
+
+- [commonform-critique](https://www.npmjs.com/package/commonform-critique) criticizes style and word choice
+- [commonform-lint](https://www.npmjs.com/package/commonform-lint) notes structural issues, like undefined terms
+
+## Specific Annotators
 
 - [commonform-alex](https://www.npmjs.com/package/commonform-alex)
 - [commonform-archaic](https://www.npmjs.com/package/commonform-archaic)
@@ -23,6 +33,8 @@
 - [passive-aggressor](https://www.npmjs.com/package/passive-aggressor)
 
 ## Data Packages
+
+A number of [specific annotators](#specific-annotators) in turn depend on data packages.
 
 - [american-legal-archaisms](https://www.npmjs.com/package/american-legal-archaisms)
 - [mscd](https://www.npmjs.com/package/mscd)
