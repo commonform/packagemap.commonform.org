@@ -18,15 +18,15 @@ The [core packages](#core) define and enforce the schema for Common Forms, handl
 
 ## Content Addressing
 
-- [commonform-serialize](https://www.npmjs.com/package/commonform-serialize)
+- [commonform-serialize](https://www.npmjs.com/package/commonform-serialize) serializes JSON with keys sorted, so the same JSON always serializes the same way.
 
-- [commonform-hash](https://www.npmjs.com/package/commonform-hash)
+- [commonform-hash](https://www.npmjs.com/package/commonform-hash) hashes Common Forms with SHA256.
 
 ## Utilities
 
-- [commonform-analyze](https://www.npmjs.com/package/commonform-analyze)
+- [commonform-analyze](https://www.npmjs.com/package/commonform-analyze) takes a Common Form and returns a report about the terms, headings, and other structural elements it uses.
 
-- [commonform-predicate](https://www.npmjs.com/package/commonform-predicate)
+- [commonform-predicate](https://www.npmjs.com/package/commonform-predicate) provides a number of predicate functions for identifying the types of Common Form content elements.
 
 # Annotators
 
@@ -42,31 +42,31 @@ Annotators take Common Forms and return arrays of notes, called annotations, abo
 
 - [commonform-alex](https://www.npmjs.com/package/commonform-alex)
 
-- [commonform-archaic](https://www.npmjs.com/package/commonform-archaic)
+- [commonform-archaic](https://www.npmjs.com/package/commonform-archaic) annotates archaic terms.
 
-- [commonform-mscd](https://www.npmjs.com/package/commonform-mscd)
+- [commonform-mscd](https://www.npmjs.com/package/commonform-mscd) annotates usages covered by Ken Adam's Manual of Style for Contract Drafting.
 
-- [commonform-unmarked-uses](https://www.npmjs.com/package/commonform-unmarked-uses)
+- [commonform-unmarked-uses](https://www.npmjs.com/package/commonform-unmarked-uses) annotates uses of defined terms that aren't marked as uses.
 
-- [doubleplus-numbers](https://www.npmjs.com/package/doubleplus-numbers)
+- [doubleplus-numbers](https://www.npmjs.com/package/doubleplus-numbers) annotates repetitions like "ten (10)".
 
-- [passive-aggressor](https://www.npmjs.com/package/passive-aggressor)
+- [passive-aggressor](https://www.npmjs.com/package/passive-aggressor) annotates passive constructions.
 
 ## Data Packages
 
 A number of [specific annotators](#specific-annotators) in turn depend on data packages.
 
-- [american-legal-archaisms](https://www.npmjs.com/package/american-legal-archaisms)
+- [american-legal-archaisms](https://www.npmjs.com/package/american-legal-archaisms) lists archaisms that lawyers can't seem to get enough of.
 
-- [mscd](https://www.npmjs.com/package/mscd)
+- [mscd](https://www.npmjs.com/package/mscd) lists usages discouraged in Ken Adams' Manual of Style for Contract Drafting.
 
-- [wordy-words](https://www.npmjs.com/package/wordy-words)
+- [wordy-words](https://www.npmjs.com/package/wordy-words) lists short, plain alternatives to common long words and phrases.
 
 ## Metaprogramming
 
-- [commonform-regexp-annotator](https://www.npmjs.com/package/commonform-regexp-annotator)
+- [commonform-regexp-annotator](https://www.npmjs.com/package/commonform-regexp-annotator) builds annotators based on regular expressions.
 
-- [commonform-phrase-annotator](https://www.npmjs.com/package/commonform-phrase-annotator)
+- [commonform-phrase-annotator](https://www.npmjs.com/package/commonform-phrase-annotator) builds annotators based on fixed words or phrases.
 
 # Renderers
 
@@ -78,26 +78,28 @@ A number of [specific annotators](#specific-annotators) in turn depend on data p
 
 - [commonform-html](https://www.npmjs.com/package/commonform-html) renders HTML.
 
+- [ooxml-signature-pages](https://www.npmjs.com/package/ooxml-signature-pages) renders signature pages to Microsoft Word format.
+
 ## Helpers
 
-- [commonform-group-series](https://www.npmjs.com/package/commonform-group-series)
+- [commonform-group-series](https://www.npmjs.com/package/commonform-group-series) groups content elements into paragraphs and series of children.
 
-- [commonform-number](https://www.npmjs.com/package/commonform-number)
+- [commonform-number](https://www.npmjs.com/package/commonform-number) adds numbering metadata to Common Forms.
 
-- [commonform-resolve](https://www.npmjs.com/package/commonform-resolve)
-
-- [ooxml-signature-pages](https://www.npmjs.com/package/ooxml-signature-pages) renders signature pages
+- [commonform-resolve](https://www.npmjs.com/package/commonform-resolve) adds metadata about blank values and referenced section numbers.
 
 ## Numberings
 
-- [abstract-numbering](https://www.npmjs.com/package/abstract-numbering)
+Numberings turn numbering metadata from commonform-number into numbers like "1(a)(iii)".
 
-- [agreement-schedule-exhibits-numbering](https://www.npmjs.com/package/agreement-schedule-exhibits-numbering)
+- [abstract-numbering](https://www.npmjs.com/package/abstract-numbering) defines the interface for numberings.
 
-- [decimal-numbering](https://www.npmjs.com/package/decimal-numbering)
+- [agreement-schedule-exhibits-numbering](https://www.npmjs.com/package/agreement-schedule-exhibits-numbering) renders an agreement followed by a schedule and exhibits.
 
-- [outline-numbering](https://www.npmjs.com/package/outline-numbering)
+- [decimal-numbering](https://www.npmjs.com/package/decimal-numbering) creates numbers like "1.2.3".
 
-- [plan-addenda-exhibits-numbering](https://www.npmjs.com/package/plan-addenda-exhibits-numbering)
+- [outline-numbering](https://www.npmjs.com/package/outline-numbering) creates numbers like "1(b)(iii)".
 
-- [resolutions-schedules-exhibits-numbering](https://www.npmjs.com/package/resolutions-schedules-exhibits-numbering)
+- [plan-addenda-exhibits-numbering](https://www.npmjs.com/package/plan-addenda-exhibits-numbering) numbers a plan followed by addenda and exhibits.
+
+- [resolutions-schedules-exhibits-numbering](https://www.npmjs.com/package/resolutions-schedules-exhibits-numbering) renders resolutions followed by schedules and exhibits.
