@@ -4,7 +4,7 @@ The [core packages](#core) define and enforce the schema for Common Forms, handl
 
 [Annotators](#annotators) analyze Common Forms and return annotations to their content identifying structural and stylistic issues.
 
-[Renderers](#renders) transform Common Form data into other formats, like Microsoft Word, HTML, and CommonMark.
+[Renderers](#renderers) transform Common Form data into other formats, like Microsoft Word, HTML, and CommonMark.
 
 # Core
 
