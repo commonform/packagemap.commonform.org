@@ -40,7 +40,7 @@ Annotators take Common Forms and return arrays of notes, called annotations, abo
 
 ## Specific Annotators
 
-- [commonform-alex](https://www.npmjs.com/package/commonform-alex)
+- [commonform-alex](https://www.npmjs.com/package/commonform-alex) annotates potentially insensitive language.
 
 - [commonform-archaic](https://www.npmjs.com/package/commonform-archaic) annotates archaic terms.
 
