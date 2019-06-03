@@ -70,6 +70,8 @@ A number of [specific annotators](#specific-annotators) in turn depend on data p
 
 # Renderers
 
+Renderers take Common Form data and output them into different formats.
+
 ## Specific Formats
 
 - [commonform-docx](https://www.npmjs.com/package/commonform-docx) renders Microsoft Word `.docx` files.
